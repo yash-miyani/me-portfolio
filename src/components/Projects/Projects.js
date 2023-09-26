@@ -75,7 +75,7 @@ function Projects() {
             <ProjectCard
               imgPath={tailwag}
               title="Tailwag"
-              description="This is the fully responsive website template for jewellery. This website uses only Bootstrap 5 and React Js with react counter, react slider and react threw form validation."
+              description="This is the fully responsive website template for pets. This website uses only Bootstrap 5 and React Js with react counter, react slider and react threw form validation."
               ghLink="https://github.com/yash-miyani/Tailwag-dog-website.git"
               demoLink="https://ym-react-3.netlify.app/"
             />
