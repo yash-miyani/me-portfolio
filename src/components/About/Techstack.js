@@ -32,10 +32,6 @@ function Techstack() {
         <span className="fs-6 d-block">React Js</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-        <span className="fs-6 d-block">Node Js</span>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiBootstrap />
         <span className="fs-6 d-block">Bootstrap 5</span>
       </Col>
@@ -43,12 +39,6 @@ function Techstack() {
         <SiTailwindcss />
         <span className="fs-6 d-block">Tailwind Css</span>
       </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-        <span className="fs-6 d-block">Mongodb</span>
-      </Col>
-
       <Col xs={4} md={2} className="tech-icons">
         <DiGithubBadge />
         <span className="fs-6 d-block">Github</span>
