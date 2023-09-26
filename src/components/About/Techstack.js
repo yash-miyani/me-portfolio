@@ -6,8 +6,6 @@ import {
   DiJavascript1,
   DiReact,
   DiBootstrap,
-  DiNodejs,
-  DiMongodb,
   DiGithubBadge,
 } from "react-icons/di";
 import { SiFirebase, SiTailwindcss, SiRedux } from "react-icons/si";
