@@ -32,7 +32,7 @@ function Home2() {
               <br />
               <br />I always apply my experience in developing products Modern
               Javascript Library and Framework like
-              <i className="primary-header"> React.js.</i>
+              <i className="primary-header"> React Js and Node Js</i>
               <br />
               <br />
               Currently expanding my portfolio by building more{" "}

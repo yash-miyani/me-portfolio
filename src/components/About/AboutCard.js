@@ -10,8 +10,8 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am{" "}
             <span className="primary-header">Yash Miyani</span> from Surat,
-            Gujarat, India. I am a bachelor of commerce graduate and I'm doing
-            advance web devloper course .
+            Gujarat, India. I am a bachelor of commerce graduate and I'm done
+            Advance Web Development course .
             <br />
             <br />
             In addition to coding, here are some other things I enjoy doing!

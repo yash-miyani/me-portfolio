@@ -8,7 +8,14 @@ import {
   DiBootstrap,
   DiGithubBadge,
 } from "react-icons/di";
-import { SiFirebase, SiTailwindcss, SiRedux } from "react-icons/si";
+import {
+  SiFirebase,
+  SiTailwindcss,
+  SiRedux,
+  SiMongodb,
+  SiExpress,
+} from "react-icons/si";
+import { FaNode } from "react-icons/fa6";
 
 function Techstack() {
   return (
@@ -22,14 +29,6 @@ function Techstack() {
         <span className="fs-6 d-block">CSS 3</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-        <span className="fs-6 d-block">Javascript</span>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-        <span className="fs-6 d-block">React Js</span>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiBootstrap />
         <span className="fs-6 d-block">Bootstrap 5</span>
       </Col>
@@ -37,10 +36,17 @@ function Techstack() {
         <SiTailwindcss />
         <span className="fs-6 d-block">Tailwind Css</span>
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <DiGithubBadge />
-        <span className="fs-6 d-block">Github</span>
+        <DiJavascript1 />
+        <span className="fs-6 d-block">Javascript</span>
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
+        <span className="fs-6 d-block">React Js</span>
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
         <span className="fs-6 d-block">Firbase</span>
@@ -49,6 +55,26 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiRedux />
         <span className="fs-6 d-block">Redux</span>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGithubBadge />
+        <span className="fs-6 d-block">Github</span>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMongodb />
+        <span className="fs-6 d-block">MongoDb</span>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
+        <span className="fs-6 d-block">Express Js</span>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <FaNode />
+        <span className="fs-6 d-block">Node Js</span>
       </Col>
     </Row>
   );
