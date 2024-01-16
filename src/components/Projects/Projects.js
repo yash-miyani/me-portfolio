@@ -85,7 +85,7 @@ function Projects() {
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={fastReactPizza}
-              title="Food-order"
+              title="Fast React Pizza "
               description="This Application to order pizza and some new functionalities (add to cart or order page) build with react.js, tailwindcss and using redux. React router morden data loading capabilites."
               ghLink="https://github.com/yash-miyani/fast-react-pizza.git"
               demoLink="https://ym-amazing-pizza.netlify.app/"
@@ -95,7 +95,7 @@ function Projects() {
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={foodOrder}
-              title="Fast React Pizza"
+              title="Food-order"
               description="This is the fully responsive website template for food-order.This Application to order pizza and some new functionalities (add to cart and like) build with react.js, tailwindcss and using redux toolkit."
               ghLink="https://github.com/yash-miyani/food-order.git"
               demoLink="https://ym-react-4.netlify.app/"
