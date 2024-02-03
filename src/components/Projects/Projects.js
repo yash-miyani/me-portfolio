@@ -10,6 +10,7 @@ import buri from "../../Assets/Projects/buri.png";
 import jewelly from "../../Assets/Projects/jewelly.png";
 import tailwag from "../../Assets/Projects/tailwag.png";
 import foodOrder from "../../Assets/Projects/food-order.png";
+import mernEstate from "../../Assets/Projects/mern-estate.png";
 
 import "./project.css";
 
@@ -99,6 +100,16 @@ function Projects() {
               description="This is the fully responsive website template for food-order.This Application to order pizza and some new functionalities (add to cart and like) build with react.js, tailwindcss and using redux toolkit."
               ghLink="https://github.com/yash-miyani/food-order.git"
               demoLink="https://ym-react-4.netlify.app/"
+            />
+          </Col>
+
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={mernEstate}
+              title="mernEstate"
+              description="This Application create React.js, Node.js with Express.js (Backend Server), MongoDB database for storing data and Taliwind CSS framework for styling. This Application use Feature Real Time Data Base Connection, Authentication, Sorting and Filtering."
+              ghLink="https://github.com/yash-miyani/mern-esate.git"
+              demoLink="https://mern-estate-zit8.onrender.com/"
             />
           </Col>
         </Row>
